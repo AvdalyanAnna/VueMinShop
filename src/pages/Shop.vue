@@ -1,4 +1,5 @@
 <template>
+
   <div class="wrapper-content wrapper-content--fixed">
     <section>
       <div class="container">
@@ -28,8 +29,8 @@ export default {
   },
   created() {
     this.shopList = this.$store.getters.getShopList;
-    // console.log(this.shopList)
-  }
+  },
+
 }
 </script>
 
